@@ -33,7 +33,7 @@ public class MyController {
 	
 	//add course
 	@PostMapping("/courses")
-	public Course addCoure(@RequestBody Course course) {
+	public Course addCourse(@RequestBody Course course) {
 		return this.courseService.addCourse(course);
 	}
 	
